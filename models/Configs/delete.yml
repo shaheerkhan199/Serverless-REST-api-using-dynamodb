@@ -1,0 +1,6 @@
+handler: ${self:custom.modelsDir}/ViewSet.delete
+events:
+  - http:
+      path: delete/{id}
+      method: delete
+      cors: true

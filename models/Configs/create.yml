@@ -1,0 +1,6 @@
+handler: ${self:custom.modelsDir}/ViewSet.create
+events:
+  - http:
+      path: create
+      method: post
+      cors: true

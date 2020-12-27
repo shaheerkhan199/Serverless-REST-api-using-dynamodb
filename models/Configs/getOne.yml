@@ -1,0 +1,6 @@
+handler: ${self:custom.modelsDir}/ViewSet.getOne
+events:
+  - http:
+      path: alarms/{id}
+      method: get
+      cors: true

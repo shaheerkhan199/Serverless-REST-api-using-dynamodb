@@ -1,0 +1,6 @@
+handler: ${self:custom.modelsDir}/ViewSet.update
+events:
+  - http:
+      path: alarms/{id}
+      method: patch
+      cors: true
